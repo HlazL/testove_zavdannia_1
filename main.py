@@ -8,5 +8,5 @@ def direction(facing, turn):
 
     angle = (turn / 45) % 8
     new_direction = (directions.index(facing) + angle) % 8
-    print(directions[int(new_direction)])
+
     return directions[int(new_direction)]
